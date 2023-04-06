@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(cors())
 app.get("/", (req, res) => {
     console.log("hello world")
-    res.send("hi")
+    res.send("hiii")
 })
 
 app.use("/products",productsRouter)
