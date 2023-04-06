@@ -30,8 +30,8 @@ app.listen(port, async() => {
       await connection
         console.log(`server is running on http://localhost:${port}`);
         
-    } catch {
-        console.log("error while connecting")
+    } catch (err){
+        console.log("error while connecting",err)
     }
 
 
